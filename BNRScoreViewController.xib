@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BNRScoreViewController">
+            <connections>
+                <outlet property="label" destination="b4Y-Uj-q9O" id="dRw-zH-CUo"/>
+                <outlet property="stamp" destination="0Zj-zI-eOT" id="IbQ-Rt-fIg"/>
+                <outlet property="star" destination="Xi3-Od-WYR" id="jLi-5B-RgL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sih-nr-mIl"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="567" height="539"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="7Eb-vf-d8W">
+                    <rect key="frame" x="66" y="270" width="435" height="242"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="441" translatesAutoresizingMaskIntoConstraints="NO" id="b4Y-Uj-q9O">
+                            <rect key="frame" x="0.0" y="0.0" width="435" height="48"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                            </variation>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vxW-C6-oeF">
+                            <rect key="frame" x="0.0" y="65" width="435" height="48"/>
+                            <animations/>
+                            <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="One more again"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                    <integer key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <variation key="widthClass=regular" misplaced="YES">
+                                <rect key="frame" x="0.0" y="65" width="435" height="48"/>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                            </variation>
+                            <connections>
+                                <action selector="OneMoreAgain:" destination="-1" eventType="touchUpInside" id="OrQ-YO-Zo5"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2L7-3w-Qyl">
+                            <rect key="frame" x="0.0" y="129" width="435" height="48"/>
+                            <animations/>
+                            <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="Snapshot">
+                                <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                    <integer key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                            </variation>
+                            <connections>
+                                <action selector="takePicture:" destination="-1" eventType="touchUpInside" id="fkO-aA-wqF"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ufL-mM-aR7">
+                            <rect key="frame" x="0.0" y="194" width="435" height="48"/>
+                            <animations/>
+                            <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="Home"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                    <integer key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                            </variation>
+                            <connections>
+                                <action selector="backToHome:" destination="-1" eventType="touchUpInside" id="yGE-eq-3TL"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="7Eb-vf-d8W" secondAttribute="height" multiplier="1.8" id="FT4-Fh-9MA"/>
+                        <constraint firstItem="2L7-3w-Qyl" firstAttribute="height" secondItem="b4Y-Uj-q9O" secondAttribute="height" id="XhH-KQ-spY"/>
+                        <constraint firstItem="ufL-mM-aR7" firstAttribute="height" secondItem="b4Y-Uj-q9O" secondAttribute="height" id="dix-9t-psx"/>
+                        <constraint firstItem="ufL-mM-aR7" firstAttribute="height" secondItem="b4Y-Uj-q9O" secondAttribute="height" id="gIX-0T-ouj"/>
+                        <constraint firstItem="b4Y-Uj-q9O" firstAttribute="height" secondItem="7Eb-vf-d8W" secondAttribute="height" multiplier="0.2" id="huz-tZ-huz"/>
+                        <constraint firstItem="vxW-C6-oeF" firstAttribute="height" secondItem="b4Y-Uj-q9O" secondAttribute="height" id="xx9-cz-4Mu"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="dix-9t-psx"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular">
+                        <mask key="constraints">
+                            <include reference="dix-9t-psx"/>
+                            <exclude reference="gIX-0T-ouj"/>
+                        </mask>
+                    </variation>
+                </stackView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Zj-zI-eOT" customClass="BNRStamp">
+                    <rect key="frame" x="170" y="31" width="227" height="227"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="0Zj-zI-eOT" secondAttribute="height" id="5nW-UE-aGO"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Xi3-Od-WYR">
+                    <rect key="frame" x="170" y="31" width="227" height="227"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.0" green="0.52361734895440726" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="7Eb-vf-d8W" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="0Ie-fb-PCn"/>
+                <constraint firstItem="0Zj-zI-eOT" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Ddl-YG-X0x"/>
+                <constraint firstItem="Xi3-Od-WYR" firstAttribute="leading" secondItem="0Zj-zI-eOT" secondAttribute="leading" id="IAm-mA-yR6"/>
+                <constraint firstItem="Xi3-Od-WYR" firstAttribute="top" secondItem="0Zj-zI-eOT" secondAttribute="top" id="ICK-Zc-84S"/>
+                <constraint firstItem="0Zj-zI-eOT" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-12" id="K2n-H6-h6D"/>
+                <constraint firstItem="7Eb-vf-d8W" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Mgc-Bf-5Y7"/>
+                <constraint firstItem="Xi3-Od-WYR" firstAttribute="trailing" secondItem="0Zj-zI-eOT" secondAttribute="trailing" id="Vuk-OB-xK7"/>
+                <constraint firstItem="0Zj-zI-eOT" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.4" id="Xt0-nE-d7i"/>
+                <constraint firstItem="Xi3-Od-WYR" firstAttribute="bottom" secondItem="0Zj-zI-eOT" secondAttribute="bottom" id="dEJ-7f-uBu"/>
+                <constraint firstItem="7Eb-vf-d8W" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.45" id="uJj-Gm-552"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="507.5" y="59.5"/>
+        </view>
+    </objects>
+</document>

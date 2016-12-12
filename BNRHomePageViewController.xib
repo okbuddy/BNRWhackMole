@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BNRHomePageViewController">
+            <connections>
+                <outlet property="begin" destination="RbI-cv-tFY" id="gBH-5J-Wav"/>
+                <outlet property="button0" destination="qj5-Kt-ZSS" id="h5S-7U-scu"/>
+                <outlet property="button1" destination="sfV-X7-pqs" id="k5j-Hh-yjT"/>
+                <outlet property="button2" destination="Bsd-Oc-hcc" id="tWT-dG-Jkf"/>
+                <outlet property="image0" destination="R04-EH-Fu5" id="waK-Ef-j7B"/>
+                <outlet property="image1" destination="PoI-El-u6V" id="U2L-zw-TbP"/>
+                <outlet property="image2" destination="rZX-MK-3va" id="5So-yF-boQ"/>
+                <outlet property="record0" destination="gbB-NG-u0q" id="OTb-XL-55b"/>
+                <outlet property="record1" destination="ppn-X1-xL2" id="poo-FU-eI1"/>
+                <outlet property="record2" destination="I9m-Cj-hVD" id="DFa-29-GdT"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="460" height="570"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="equalCentering" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="oXz-ej-axR">
+                    <rect key="frame" x="38" y="250" width="414" height="207"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="HWp-Cu-NSc">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="41"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R04-EH-Fu5">
+                                    <rect key="frame" x="0.0" y="0.0" width="248" height="41"/>
+                                    <animations/>
+                                    <variation key="heightClass=regular" misplaced="YES">
+                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="69"/>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                        <rect key="frame" x="0.0" y="0.0" width="248" height="41"/>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                        <rect key="frame" x="0.0" y="0.0" width="248" height="41"/>
+                                    </variation>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qj5-Kt-ZSS">
+                                    <rect key="frame" x="248" y="0.0" width="166" height="41"/>
+                                    <animations/>
+                                    <color key="backgroundColor" red="1" green="0.48170468540066536" blue="0.16720953459164767" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="10s">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                            <integer key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="15"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <variation key="heightClass=regular" misplaced="YES">
+                                        <rect key="frame" x="0.0" y="0.0" width="484" height="69"/>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                        <rect key="frame" x="248" y="0.0" width="166" height="41"/>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <rect key="frame" x="248" y="0.0" width="166" height="41"/>
+                                    </variation>
+                                    <connections>
+                                        <action selector="select10:" destination="-1" eventType="touchUpInside" id="k5p-FF-9lN"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbB-NG-u0q">
+                                    <rect key="frame" x="414" y="0.0" width="0.0" height="41"/>
+                                    <animations/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                        <rect key="frame" x="414" y="0.0" width="0.0" height="41"/>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                        <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                        <rect key="frame" x="414" y="0.0" width="0.0" height="41"/>
+                                    </variation>
+                                </label>
+                            </subviews>
+                            <animations/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstItem="qj5-Kt-ZSS" firstAttribute="width" secondItem="HWp-Cu-NSc" secondAttribute="width" multiplier="0.4" id="OgQ-4e-BLE"/>
+                                <constraint firstItem="gbB-NG-u0q" firstAttribute="width" secondItem="HWp-Cu-NSc" secondAttribute="width" multiplier="0.3" id="mbv-o1-Fqn"/>
+                                <constraint firstItem="R04-EH-Fu5" firstAttribute="width" secondItem="HWp-Cu-NSc" secondAttribute="width" multiplier="0.25" id="pL8-f0-h8O"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="wOn-qD-Akx">
+                            <rect key="frame" x="0.0" y="55" width="414" height="41"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PoI-El-u6V">
+                                    <rect key="frame" x="0.0" y="0.0" width="248" height="41"/>
+                                    <animations/>
+                                    <variation key="heightClass=regular" misplaced="YES">
+                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="69"/>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                        <rect key="frame" x="0.0" y="0.0" width="248" height="41"/>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                        <rect key="frame" x="0.0" y="0.0" width="248" height="41"/>
+                                    </variation>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sfV-X7-pqs">
+                                    <rect key="frame" x="248" y="0.0" width="166" height="41"/>
+                                    <animations/>
+                                    <color key="backgroundColor" red="1" green="0.48170468540066536" blue="0.16720953459164767" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="30s">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                            <integer key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="15"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <variation key="heightClass=regular" misplaced="YES">
+                                        <rect key="frame" x="0.0" y="0.0" width="484" height="69"/>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                        <rect key="frame" x="248" y="0.0" width="166" height="41"/>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <rect key="frame" x="248" y="0.0" width="166" height="41"/>
+                                    </variation>
+                                    <connections>
+                                        <action selector="select30:" destination="-1" eventType="touchUpInside" id="ttd-09-zu9"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ppn-X1-xL2">
+                                    <rect key="frame" x="414" y="0.0" width="0.0" height="41"/>
+                                    <animations/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                        <rect key="frame" x="414" y="0.0" width="0.0" height="41"/>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                        <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                        <rect key="frame" x="414" y="0.0" width="0.0" height="41"/>
+                                    </variation>
+                                </label>
+                            </subviews>
+                            <animations/>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="QB7-eU-kuI">
+                            <rect key="frame" x="0.0" y="111" width="414" height="41"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rZX-MK-3va">
+                                    <rect key="frame" x="0.0" y="0.0" width="248" height="41"/>
+                                    <animations/>
+                                    <variation key="heightClass=regular" misplaced="YES">
+                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="69"/>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                        <rect key="frame" x="0.0" y="0.0" width="248" height="41"/>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                        <rect key="frame" x="0.0" y="0.0" width="248" height="41"/>
+                                    </variation>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bsd-Oc-hcc">
+                                    <rect key="frame" x="248" y="0.0" width="166" height="41"/>
+                                    <animations/>
+                                    <color key="backgroundColor" red="1" green="0.48170468540066536" blue="0.16720953459164767" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="60s">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                            <integer key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="15"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <variation key="heightClass=regular" misplaced="YES">
+                                        <rect key="frame" x="0.0" y="0.0" width="484" height="69"/>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                        <rect key="frame" x="248" y="0.0" width="166" height="41"/>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <rect key="frame" x="248" y="0.0" width="166" height="41"/>
+                                    </variation>
+                                    <connections>
+                                        <action selector="select60:" destination="-1" eventType="touchUpInside" id="q7T-nN-qxH"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I9m-Cj-hVD">
+                                    <rect key="frame" x="414" y="0.0" width="0.0" height="41"/>
+                                    <animations/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                        <rect key="frame" x="414" y="0.0" width="0.0" height="41"/>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                        <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                        <rect key="frame" x="414" y="0.0" width="0.0" height="41"/>
+                                    </variation>
+                                </label>
+                            </subviews>
+                            <animations/>
+                        </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RbI-cv-tFY">
+                            <rect key="frame" x="0.0" y="166" width="414" height="41"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.46017913520299547" green="1" blue="0.98431911019729035" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                            <state key="normal" title="Game Start"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                    <integer key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                            </variation>
+                            <connections>
+                                <action selector="gameStart:" destination="-1" eventType="touchUpInside" id="D5W-Cd-sDg"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <animations/>
+                    <constraints>
+                        <constraint firstItem="RbI-cv-tFY" firstAttribute="height" secondItem="HWp-Cu-NSc" secondAttribute="height" id="1R5-Ma-MKm"/>
+                        <constraint firstAttribute="width" secondItem="oXz-ej-axR" secondAttribute="height" multiplier="2" id="4OC-GK-d4T"/>
+                        <constraint firstItem="QB7-eU-kuI" firstAttribute="height" secondItem="HWp-Cu-NSc" secondAttribute="height" id="BWp-k2-nWN"/>
+                        <constraint firstItem="rZX-MK-3va" firstAttribute="width" secondItem="R04-EH-Fu5" secondAttribute="width" id="TKt-fA-P4b"/>
+                        <constraint firstItem="PoI-El-u6V" firstAttribute="width" secondItem="R04-EH-Fu5" secondAttribute="width" id="blV-R7-CkH"/>
+                        <constraint firstItem="sfV-X7-pqs" firstAttribute="width" secondItem="qj5-Kt-ZSS" secondAttribute="width" id="hXG-mk-eCX"/>
+                        <constraint firstItem="wOn-qD-Akx" firstAttribute="height" secondItem="HWp-Cu-NSc" secondAttribute="height" id="ip0-5l-rdC"/>
+                        <constraint firstItem="ppn-X1-xL2" firstAttribute="width" secondItem="gbB-NG-u0q" secondAttribute="width" id="lNB-J7-Dn9"/>
+                        <constraint firstItem="I9m-Cj-hVD" firstAttribute="width" secondItem="gbB-NG-u0q" secondAttribute="width" id="mnW-TP-7Qd"/>
+                        <constraint firstItem="HWp-Cu-NSc" firstAttribute="height" secondItem="oXz-ej-axR" secondAttribute="height" multiplier="0.2" id="rxw-U6-xF7"/>
+                        <constraint firstItem="Bsd-Oc-hcc" firstAttribute="width" secondItem="qj5-Kt-ZSS" secondAttribute="width" id="vhs-ZZ-kmm"/>
+                    </constraints>
+                    <variation key="heightClass=regular" misplaced="YES">
+                        <rect key="frame" x="30" y="143" width="691" height="346"/>
+                    </variation>
+                </stackView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.40446912350000003" green="1" blue="0.24636862849999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="oXz-ej-axR" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="CGk-Is-ZFA"/>
+                <constraint firstItem="oXz-ej-axR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-20" id="U79-Sm-tV2"/>
+                <constraint firstItem="oXz-ej-axR" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.9" id="YzZ-C6-Fre"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-609" y="127"/>
+        </view>
+    </objects>
+</document>

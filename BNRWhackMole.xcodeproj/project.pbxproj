@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D107BB211D241BD7006A6A08 /* hammer.png in Resources */ = {isa = PBXBuildFile; fileRef = D107BB201D241BD7006A6A08 /* hammer.png */; settings = {ASSET_TAGS = (); }; };
 		D1369CA91D113D9E008F49A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1369CA81D113D9E008F49A4 /* main.m */; };
 		D1369CAC1D113D9E008F49A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1369CAB1D113D9E008F49A4 /* AppDelegate.m */; };
 		D1369CAF1D113D9E008F49A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1369CAE1D113D9E008F49A4 /* ViewController.m */; };
@@ -15,6 +16,22 @@
 		D1369CB71D113D9E008F49A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1369CB51D113D9E008F49A4 /* LaunchScreen.storyboard */; };
 		D1369CC21D113D9E008F49A4 /* BNRWhackMoleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1369CC11D113D9E008F49A4 /* BNRWhackMoleTests.m */; };
 		D1369CCD1D113D9E008F49A4 /* BNRWhackMoleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1369CCC1D113D9E008F49A4 /* BNRWhackMoleUITests.m */; };
+		D1369CDF1D113DDB008F49A4 /* BNRMole.m in Sources */ = {isa = PBXBuildFile; fileRef = D1369CDB1D113DDB008F49A4 /* BNRMole.m */; settings = {ASSET_TAGS = (); }; };
+		D1369CE01D113DDB008F49A4 /* BNRWhackMoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1369CDD1D113DDB008F49A4 /* BNRWhackMoleViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D1369CE41D12FC33008F49A4 /* BNRHole.m in Sources */ = {isa = PBXBuildFile; fileRef = D1369CE31D12FC33008F49A4 /* BNRHole.m */; settings = {ASSET_TAGS = (); }; };
+		D151303D1D18CCD30024FEF4 /* BNRWhackMoleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D151303C1D18CCD30024FEF4 /* BNRWhackMoleViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		D16B706A1D1ADF130090C2BF /* BNRHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16B70681D1ADF130090C2BF /* BNRHomePageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D16B706B1D1ADF130090C2BF /* BNRHomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D16B70691D1ADF130090C2BF /* BNRHomePageViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		D188AD021D1C39DC0018F380 /* BNRScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D188AD001D1C39DC0018F380 /* BNRScoreViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D188AD031D1C39DC0018F380 /* BNRScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D188AD011D1C39DC0018F380 /* BNRScoreViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		D188AD061D1EBA670018F380 /* BNRStar.m in Sources */ = {isa = PBXBuildFile; fileRef = D188AD051D1EBA670018F380 /* BNRStar.m */; settings = {ASSET_TAGS = (); }; };
+		D188AD091D1EC5380018F380 /* BNRBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = D188AD081D1EC5380018F380 /* BNRBottom.m */; settings = {ASSET_TAGS = (); }; };
+		D188AD0E1D1EDD420018F380 /* BNRStamp.m in Sources */ = {isa = PBXBuildFile; fileRef = D188AD0D1D1EDD420018F380 /* BNRStamp.m */; settings = {ASSET_TAGS = (); }; };
+		D188AD111D1F8E5A0018F380 /* CALayer+layer.m in Sources */ = {isa = PBXBuildFile; fileRef = D188AD101D1F8E5A0018F380 /* CALayer+layer.m */; settings = {ASSET_TAGS = (); }; };
+		D18E059F1D2031980064EACB /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18E059E1D2031980064EACB /* Custom.swift */; settings = {ASSET_TAGS = (); }; };
+		D18E05A31D2032390064EACB /* CustomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18E05A21D2032390064EACB /* CustomAnimation.swift */; settings = {ASSET_TAGS = (); }; };
+		D1D64BC01D24076500EE4EAC /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = D1D64BBF1D24076500EE4EAC /* star.png */; settings = {ASSET_TAGS = (); }; };
+		D1D64BC61D24103A00EE4EAC /* arraw.png in Resources */ = {isa = PBXBuildFile; fileRef = D1D64BC51D24103A00EE4EAC /* arraw.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D107BB201D241BD7006A6A08 /* hammer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hammer.png; sourceTree = "<group>"; };
 		D1369CA41D113D9E008F49A4 /* BNRWhackMole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BNRWhackMole.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1369CA81D113D9E008F49A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D1369CAA1D113D9E008F49A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +69,32 @@
 		D1369CC81D113D9E008F49A4 /* BNRWhackMoleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BNRWhackMoleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1369CCC1D113D9E008F49A4 /* BNRWhackMoleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRWhackMoleUITests.m; sourceTree = "<group>"; };
 		D1369CCE1D113D9E008F49A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1369CDA1D113DDB008F49A4 /* BNRMole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRMole.h; sourceTree = "<group>"; };
+		D1369CDB1D113DDB008F49A4 /* BNRMole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRMole.m; sourceTree = "<group>"; };
+		D1369CDC1D113DDB008F49A4 /* BNRWhackMoleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRWhackMoleViewController.h; sourceTree = "<group>"; };
+		D1369CDD1D113DDB008F49A4 /* BNRWhackMoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRWhackMoleViewController.m; sourceTree = "<group>"; };
+		D1369CE21D12FC33008F49A4 /* BNRHole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHole.h; sourceTree = "<group>"; };
+		D1369CE31D12FC33008F49A4 /* BNRHole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHole.m; sourceTree = "<group>"; };
+		D151303C1D18CCD30024FEF4 /* BNRWhackMoleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRWhackMoleViewController.xib; sourceTree = "<group>"; };
+		D16B70671D1ADF130090C2BF /* BNRHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHomePageViewController.h; sourceTree = "<group>"; };
+		D16B70681D1ADF130090C2BF /* BNRHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHomePageViewController.m; sourceTree = "<group>"; };
+		D16B70691D1ADF130090C2BF /* BNRHomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRHomePageViewController.xib; sourceTree = "<group>"; };
+		D188ACFF1D1C39DC0018F380 /* BNRScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRScoreViewController.h; sourceTree = "<group>"; };
+		D188AD001D1C39DC0018F380 /* BNRScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRScoreViewController.m; sourceTree = "<group>"; };
+		D188AD011D1C39DC0018F380 /* BNRScoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRScoreViewController.xib; sourceTree = "<group>"; };
+		D188AD041D1EBA670018F380 /* BNRStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRStar.h; sourceTree = "<group>"; };
+		D188AD051D1EBA670018F380 /* BNRStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRStar.m; sourceTree = "<group>"; };
+		D188AD071D1EC5380018F380 /* BNRBottom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRBottom.h; sourceTree = "<group>"; };
+		D188AD081D1EC5380018F380 /* BNRBottom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRBottom.m; sourceTree = "<group>"; };
+		D188AD0C1D1EDD420018F380 /* BNRStamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRStamp.h; sourceTree = "<group>"; };
+		D188AD0D1D1EDD420018F380 /* BNRStamp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRStamp.m; sourceTree = "<group>"; };
+		D188AD0F1D1F8E5A0018F380 /* CALayer+layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+layer.h"; sourceTree = "<group>"; };
+		D188AD101D1F8E5A0018F380 /* CALayer+layer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+layer.m"; sourceTree = "<group>"; };
+		D18E059D1D2031970064EACB /* BNRWhackMole-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BNRWhackMole-Bridging-Header.h"; sourceTree = "<group>"; };
+		D18E059E1D2031980064EACB /* Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Custom.swift; sourceTree = "<group>"; };
+		D18E05A21D2032390064EACB /* CustomAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnimation.swift; sourceTree = "<group>"; };
+		D1D64BBF1D24076500EE4EAC /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		D1D64BC51D24103A00EE4EAC /* arraw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arraw.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +125,29 @@
 		D1369C9B1D113D9E008F49A4 = {
 			isa = PBXGroup;
 			children = (
+				D1D64BBF1D24076500EE4EAC /* star.png */,
+				D107BB201D241BD7006A6A08 /* hammer.png */,
+				D1D64BC51D24103A00EE4EAC /* arraw.png */,
+				D188AD0F1D1F8E5A0018F380 /* CALayer+layer.h */,
+				D188AD101D1F8E5A0018F380 /* CALayer+layer.m */,
+				D188AD041D1EBA670018F380 /* BNRStar.h */,
+				D188AD051D1EBA670018F380 /* BNRStar.m */,
+				D188AD0C1D1EDD420018F380 /* BNRStamp.h */,
+				D188AD0D1D1EDD420018F380 /* BNRStamp.m */,
+				D188AD071D1EC5380018F380 /* BNRBottom.h */,
+				D188AD081D1EC5380018F380 /* BNRBottom.m */,
+				D1369CE21D12FC33008F49A4 /* BNRHole.h */,
+				D1369CE31D12FC33008F49A4 /* BNRHole.m */,
+				D1369CDA1D113DDB008F49A4 /* BNRMole.h */,
+				D1369CDB1D113DDB008F49A4 /* BNRMole.m */,
+				D1458B231D212D070097D24C /* BNRScore */,
+				D18F4ABD1D24A1E2006765EE /* BNRWhack */,
+				D18F4ABE1D24A1EC006765EE /* BNRHome */,
 				D1369CA61D113D9E008F49A4 /* BNRWhackMole */,
 				D1369CC01D113D9E008F49A4 /* BNRWhackMoleTests */,
 				D1369CCB1D113D9E008F49A4 /* BNRWhackMoleUITests */,
 				D1369CA51D113D9E008F49A4 /* Products */,
+				D18E059D1D2031970064EACB /* BNRWhackMole-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +201,38 @@
 				D1369CCE1D113D9E008F49A4 /* Info.plist */,
 			);
 			path = BNRWhackMoleUITests;
+			sourceTree = "<group>";
+		};
+		D1458B231D212D070097D24C /* BNRScore */ = {
+			isa = PBXGroup;
+			children = (
+				D18E059E1D2031980064EACB /* Custom.swift */,
+				D18E05A21D2032390064EACB /* CustomAnimation.swift */,
+				D188ACFF1D1C39DC0018F380 /* BNRScoreViewController.h */,
+				D188AD001D1C39DC0018F380 /* BNRScoreViewController.m */,
+				D188AD011D1C39DC0018F380 /* BNRScoreViewController.xib */,
+			);
+			name = BNRScore;
+			sourceTree = "<group>";
+		};
+		D18F4ABD1D24A1E2006765EE /* BNRWhack */ = {
+			isa = PBXGroup;
+			children = (
+				D1369CDC1D113DDB008F49A4 /* BNRWhackMoleViewController.h */,
+				D1369CDD1D113DDB008F49A4 /* BNRWhackMoleViewController.m */,
+				D151303C1D18CCD30024FEF4 /* BNRWhackMoleViewController.xib */,
+			);
+			name = BNRWhack;
+			sourceTree = "<group>";
+		};
+		D18F4ABE1D24A1EC006765EE /* BNRHome */ = {
+			isa = PBXGroup;
+			children = (
+				D16B70671D1ADF130090C2BF /* BNRHomePageViewController.h */,
+				D16B70681D1ADF130090C2BF /* BNRHomePageViewController.m */,
+				D16B70691D1ADF130090C2BF /* BNRHomePageViewController.xib */,
+			);
+			name = BNRHome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +297,7 @@
 		D1369C9C1D113D9E008F49A4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = zhk;
 				TargetAttributes = {
@@ -244,8 +340,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1369CB71D113D9E008F49A4 /* LaunchScreen.storyboard in Resources */,
+				D1D64BC01D24076500EE4EAC /* star.png in Resources */,
+				D1D64BC61D24103A00EE4EAC /* arraw.png in Resources */,
+				D107BB211D241BD7006A6A08 /* hammer.png in Resources */,
 				D1369CB41D113D9E008F49A4 /* Assets.xcassets in Resources */,
+				D16B706B1D1ADF130090C2BF /* BNRHomePageViewController.xib in Resources */,
+				D188AD031D1C39DC0018F380 /* BNRScoreViewController.xib in Resources */,
 				D1369CB21D113D9E008F49A4 /* Main.storyboard in Resources */,
+				D151303D1D18CCD30024FEF4 /* BNRWhackMoleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +372,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D188AD021D1C39DC0018F380 /* BNRScoreViewController.m in Sources */,
 				D1369CAF1D113D9E008F49A4 /* ViewController.m in Sources */,
+				D1369CE01D113DDB008F49A4 /* BNRWhackMoleViewController.m in Sources */,
+				D18E059F1D2031980064EACB /* Custom.swift in Sources */,
 				D1369CAC1D113D9E008F49A4 /* AppDelegate.m in Sources */,
+				D18E05A31D2032390064EACB /* CustomAnimation.swift in Sources */,
 				D1369CA91D113D9E008F49A4 /* main.m in Sources */,
+				D16B706A1D1ADF130090C2BF /* BNRHomePageViewController.m in Sources */,
+				D1369CE41D12FC33008F49A4 /* BNRHole.m in Sources */,
+				D188AD111D1F8E5A0018F380 /* CALayer+layer.m in Sources */,
+				D188AD091D1EC5380018F380 /* BNRBottom.m in Sources */,
+				D188AD061D1EBA670018F380 /* BNRStar.m in Sources */,
+				D188AD0E1D1EDD420018F380 /* BNRStamp.m in Sources */,
+				D1369CDF1D113DDB008F49A4 /* BNRMole.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +460,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -390,6 +504,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -411,10 +526,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = BNRWhackMole/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhk.BNRWhackMole;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BNRWhackMole-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -422,10 +542,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = BNRWhackMole/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhk.BNRWhackMole;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BNRWhackMole-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -496,6 +620,7 @@
 				D1369CD31D113D9E008F49A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1369CD41D113D9E008F49A4 /* Build configuration list for PBXNativeTarget "BNRWhackMoleTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +629,7 @@
 				D1369CD61D113D9E008F49A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1369CD71D113D9E008F49A4 /* Build configuration list for PBXNativeTarget "BNRWhackMoleUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +638,7 @@
 				D1369CD91D113D9E008F49A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

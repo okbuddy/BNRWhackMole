@@ -7,16 +7,44 @@
 //
 
 #import "AppDelegate.h"
+#import "BNRMole.h"
+#import "BNRWhackMoleViewController.h"
+#import "BNRHomePageViewController.h"
+#import "BNRScoreViewController.h"
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
++(void)initialize
+{
+    NSUserDefaults* def=[NSUserDefaults standardUserDefaults];
+    NSDictionary* dic=@{@"index":@0};
+    [def registerDefaults:dic];
+    
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window=[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    BNRHomePageViewController*home=[[BNRHomePageViewController alloc]init];
+    BNRWhackMoleViewController* whack=[[BNRWhackMoleViewController alloc]init];
+    UINavigationController* nav=[[UINavigationController alloc]initWithRootViewController:home];
+//    self.window.rootViewController=nav;
+    BNRScoreViewController* score=[[BNRScoreViewController alloc]init];
+    self.window.rootViewController=nav;
+    NSArray* arr=[UIFont familyNames];
+    NSLog(@"%d",[UIFont familyNames].count);
+
+    NSLog(@"%@",[UIFont familyNames]);
+    NSLog(@"%@",[UIFont familyNames][0]);
+
+
+    
+    self.window.backgroundColor=[UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
